@@ -1,0 +1,45 @@
+.box {
+    border: 2px solid black;
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    padding-bottom: 10px;
+    color: black;
+    background-color: #F9F9ED;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    /*width: 300px;*/
+    min-width: 300px;
+    width: 25%;
+    height: calc(100vh / 2);
+    float: left;
+    min-height: 350px;
+    border-radius: 5px;
+    /*margin-left: 20vw;*/
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+p {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+button {
+    /*justify-content: center;*/
+    margin-left: 36.5%;
+}
+.center {
+    display: flex;
+    justify-content: space-around;
+}
+.box-img {
+    max-width: 50%;
+    max-height: 25%;
+    margin-top: 10px;
+}
